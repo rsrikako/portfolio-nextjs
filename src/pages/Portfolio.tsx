@@ -148,7 +148,7 @@ export default function Portfolio() {
           <motion.div
             className="mt-8 animate-bounce"
             initial={{ y: 0 }}
-            animate={{ y: [0, 20, 0] }}
+            animate={{ y: [-20, 0, 20] }}
             transition={{ duration: 1.5, repeat: Infinity }}
           >
             <svg
@@ -162,11 +162,11 @@ export default function Portfolio() {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M5 10l7 7 7-7"
+                d="M5 14l7-7 7 7"
               />
             </svg>
           </motion.div>
-        </section>
+                  </section>
 
         <section id="skills" className="py-20 text-center">
           <h2 className="text-3xl font-bold mb-6">Skills</h2>
